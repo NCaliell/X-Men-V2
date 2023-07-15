@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-men - Caliell - V07.23</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">SELECT</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem" id="cyclops" data-name="Ciclope (Scott Summers)"
+                    data-description="Ciclope (Cyclops) é Scott Summers, membro fundador do grupo X-Men e líder de campo da equipe. Nascido mutante, ele tem o poder de projetar pura energia de seus olhos, através de raios de energia concussiva controlados por seu visor feito de quartzo-rubi.">
+                    <img class="personagem-img" src="./src/imagens/selec-cyclops.png"
+                        alt="Personagem Cyclops(Scott Summers)">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey (Dark Phoenix)"
+                    data-description="Jean Grey, também conhecida como Fênix, é uma poderosa telepata e telecinética. Ela possui uma conexão com a Força Fênix, que aumenta seus poderes a níveis cósmicos. Jean é uma líder nata e uma das mutantes mais poderosas do universo X-Men.">
+                    <img class="personagem-img" src="./src/imagens/selec-jean-grey.png"
+                        alt="Personagem Jean Grey(Dark Phoenix)">
+                </li>
+                <li class="personagem" id="psyloke" data-name="Lince Negra (Kitty Pryde)"
+                    data-description="Lince Negra (Shadowcat) é uma mutante dos X-Men com a habilidade de atravessar objetos sólidos e se tornar intangível. Ela é uma mestra em artes marciais e possui uma personalidade doce e carismática.">
+                    <img class="personagem-img" src="./src/imagens/selec-psyloke.png"
+                        alt="Personagem Shadowcat(Kitty Pryde)">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto (Erik Lehnsherr)"
+                    data-description="Magneto (Erik Lensherr) é um mutante com controle magnético. Ele pode manipular metais e campos magnéticos, além de possuir um capacete que o protege contra ataques psíquicos. Magneto é conhecido por sua postura radical em relação aos humanos e pela luta pelos direitos dos mutantes.">
+                    <img class="personagem-img" src="./src/imagens/selec-magneto.png"
+                        alt="Personagem Magneto(Erik Lehnsherr)">
+                </li>
+                <li class="personagem" id="gambit" data-name="Noturno (Kurt Wagner)"
+                    data-description="Noturno (Nightcrawler) é um mutante com aparência demoníaca e a habilidade de teletransporte. Ele é ágil e possui uma cauda preênsil, além de uma grande agilidade e habilidades acrobáticas. Noturno é conhecido por sua devoção religiosa e por sua personalidade gentil e compassiva.">
+                    <img class="personagem-img" src="./src/imagens/selec-gambit.png"
+                        alt="Personagem Nightcrawler(Kurt Wagner)">
+                </li>
+                <li class="personagem" id="storm" data-name="Tempestade (Ororo Munroe)"
+                    data-description="Tempestade (Storm) é uma mutante com o controle dos elementos climáticos. Ela pode manipular o clima, gerando tempestades, ventos e raios. Tempestade é uma líder forte e uma das mutantes mais respeitadas pelos X-Men.">
+                    <img class="personagem-img" src="./src/imagens/selec-storm.png"
+                        alt="Personagem Storm(Ororo Munroe)">
+                </li>
+                <li class="personagem" id="rogue" data-name="Vampira (Anna Marie)"
+                    data-description="Vampira (Rogue) tem o poder de absorver a energia vital e os poderes de outras pessoas através do toque. Ela também pode voar e possui força sobre-humana temporária após absorver os poderes de alguém. Vampira lida com a dificuldade de tocar outras pessoas devido ao seu poder.">
+                    <img class="personagem-img" src="./src/imagens/selec-rogue.png" alt="Personagem Rogue(Anna Marie)">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine (Logan)"
+                    data-description="Wolverine (Logan) é um mutante com um fator de cura acelerado e garras retráteis de adamantium. Ele possui sentidos aguçados, habilidades de combate avançadas e uma longa vida útil. Wolverine é conhecido por sua natureza feroz e implacável, além de ser um dos membros mais icônicos dos X-Men.">
+                    <img class="personagem-img" src="./src/imagens/selec-wolverine.png"
+                        alt="Personagem Wolverine(Logan)">
+                </li>
+            </ul>
+            <h2 class="titulo">YOUR HEROES!</h2>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande selecionado" src="./src/imagens/card-cyclops.gif"
+                alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope (Scott Summers)</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ciclope (Cyclops) é Scott Summers, membro
+                    fundador do grupo X-Men e líder de campo da equipe. Nascido mutante, ele tem o poder de projetar
+                    pura energia de seus olhos, através de raios de energia concussiva controlados por seu visor feito
+                    de quartzo-rubi.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+    <footer class="rodape">
+        <p>Rodapé da página (teste)</p>
+    </footer>
+</body>
+
+</html>

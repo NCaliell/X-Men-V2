@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body::before{
+    content: "";
+    background-image: url(../imagens/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho .logo{
+    display: flex;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    max-height: 30px; /* Altere esse valor conforme necessário */
+}
+
+.logo{
+    display: block;
+    margin-top: 10px;
+}
+
+.cabecalho__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #47f4ff;
+    text-decoration: none;
+}
+
+.selecao-de-personagens {
+    font-family: "Oxanium", cursive;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(83vh - 152px);
+    justify-content: center;
+    margin-bottom: 2.7%; /* Adiciona uma margem inferior */
+    margin-top: 30px; /* Adiciona uma margem superior */
+}
+
+.selecao-de-personagens .lista-de-personagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    background-color: #2B96D9;
+    padding: 1%;
+    }
+
+.selecao-de-personagens .personagens{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    max-width: 525px;
+    gap: 25px;
+}
+
+.selecao-de-personagens .personagens .titulo{
+    font-size: 40px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+.lista-de-personagens .personagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.personagem-selecionado {
+    text-align: center;
+    max-height: 530px;
+}
+
+.personagem-selecionado .personagem-grande{
+    width: 430px;
+    height: 430px;
+}
+
+.personagem-selecionado .nome-personagem{
+    border-bottom: 2px solid #47f4ff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.personagem-selecionado .descricao-personagem{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+    }
+
+.selecao-de-personagens .descricao-personagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+
+.rodape {
+    background-color: #22D4FD;
+    padding: 24px;
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    position: relative; /* Altera a posição para "relative" */
+}
